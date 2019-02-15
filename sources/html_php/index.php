@@ -86,6 +86,6 @@ HTML;
 	$x++;
 }
 
-// include('footer.php');
+include('footer.php');
 ?>
 

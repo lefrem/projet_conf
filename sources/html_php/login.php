@@ -41,7 +41,7 @@ if (isset($_POST['Email']) && isset($_POST['Password'])) {
 else {
 	?>
 	<form action="login.php" method="post">
-		<label>Emai : </label>
+		<label>Email : </label>
 		<input type="text" 
 		name="Email" 
 		placeholder="Votre email" 
@@ -49,7 +49,7 @@ else {
 		minlength="1" 
 		required>
 		<br>
-		<label>Mor de passe : </label>
+		<label>Mot de passe : </label>
 		<input type="Password" 
 		name="Password" 
 		placeholder="Votre mot de passe" 

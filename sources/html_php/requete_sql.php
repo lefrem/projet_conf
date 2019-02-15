@@ -234,3 +234,13 @@ function RemoveUser ()
 	");
 	return $RemoveUser;
 }
+
+function AddComment ()
+{
+	$bdd = connection();
+	$AddComment = $bdd->prepare("
+		INSERT INTO `commentary` (id,idUser,idConf,content,mark) 
+		VALUE (NULL, :idUser, :idConf, :content, :mark)
+	");
+	return $AddComment;
+}

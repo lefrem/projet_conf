@@ -27,8 +27,11 @@ background-color: rgb(220,220,220);
 
 footer{
 
-    position: absolute;
+    
+    
+    position: absolute;;
     left: 50%; 
+    top: 230%;
     transform: translate(-50%, -50%); 
 
 }

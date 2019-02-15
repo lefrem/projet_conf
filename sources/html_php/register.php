@@ -3,7 +3,7 @@ include('navbar.php');
 
 if (
     isset($_POST['Email']) && 
-	isset($_POST['Userlastname']) && 
+	isset($_POST['Userlastname']) && r
 	isset($_POST['Password']) && 
 	isset($_POST['PasswordConfimation'])
 ) {
