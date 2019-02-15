@@ -1,0 +1,43 @@
+.nav{
+
+    text-align: center;
+    padding: 5px 10px;
+    
+}
+
+.nav justify-content-center{
+
+    text-align: center;
+
+}
+
+body {
+
+background-color: rgb(220,220,220);
+
+}
+
+
+
+.content{
+    text-align: center;
+    width: 1000px;
+    background-color: aliceblue;
+}
+
+footer{
+
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+
+}
+
+body .content {
+
+    margin: auto;
+    padding: auto;
+    width : 100vw;
+
+
+}
