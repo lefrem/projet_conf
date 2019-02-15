@@ -213,3 +213,14 @@ function CheckComment ()
 	");
 	return $CheckComment;
 }
+
+function UpdadeUser ()
+{
+	$bdd = connection();
+	$UpdadeUser = $bdd->prepare("
+	UPDATE `user`
+	SET `role` = 1
+	WHERE `id` = (:id)
+	");
+	return $UpdadeUser;
+}
