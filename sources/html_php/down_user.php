@@ -2,8 +2,8 @@
  
 include('navbar.php');
 
-$user = $_POST['upuser'];
-$role = 1;
+$user = $_POST['dwuser'];
+$role = 0;
 
 $UpdadeRole = UpdadeRole();
 $UpdadeRole->bindParam(':id', $user);

@@ -214,13 +214,23 @@ function CheckComment ()
 	return $CheckComment;
 }
 
-function UpdadeUser ()
+function UpdadeRole ()
 {
 	$bdd = connection();
-	$UpdadeUser = $bdd->prepare("
+	$UpdadeRole = $bdd->prepare("
 	UPDATE `user`
-	SET `role` = 1
+	SET `role` = :role
 	WHERE `id` = (:id)
 	");
-	return $UpdadeUser;
+	return $UpdadeRole;
+}
+
+function RemoveUser ()
+{
+	$bdd = connection();
+	$RemoveUser = $bdd->prepare("
+	DELETE FROM `user`
+	WHERE `id` = (:id)
+	");
+	return $RemoveUser;
 }
