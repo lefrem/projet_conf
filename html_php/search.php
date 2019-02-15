@@ -37,7 +37,6 @@
 
     
 	while ($Datas = $SearchUser->fetch()) {
-
         $AuthordConf[$y] = (String) $Datas['last_name'];
         if ($query == $TitleConf[$x])
         {
@@ -91,7 +90,7 @@ HTML;
 $y++;
         
 }
-    }
+}
    
 
 

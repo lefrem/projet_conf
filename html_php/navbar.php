@@ -23,6 +23,10 @@ $html = <<<HTML
 <ul class='nav justify-content-end'>
 
 <li class='nav-item'>
+    <a class='btn btn-dark nav-link ' href='./index.php'>Home</a>
+</li>
+
+<li class='nav-item'>
     <a class='btn btn-dark nav-link' href='./confnote.php'>conf notée</a>
 </li>
 

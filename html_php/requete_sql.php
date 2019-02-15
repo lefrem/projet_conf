@@ -203,19 +203,13 @@ function TopTen ()
 	return $TopTen;
 }
 
-
-
-
-
-
-
-
-function ListConf ()
+function CheckComment ()
 {
 	$bdd = connection();
-	$AddConf = $bdd->prepare("
-		SELECT COUNT(*) AS Total FROM `conference` (name, image, content, note ...)
+	$CheckComment = $bdd->prepare("
+		SELECT * 
+		FROM `commentary`
+		WHERE `idUser` = :id
 	");
+	return $CheckComment;
 }
-
-
