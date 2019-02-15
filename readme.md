@@ -9,7 +9,10 @@ Un docker a ete realiser mais le projet a ete developper sans, il a ete realisé
 ### Interprétation du projet
 
 Pour ca projet nous avons décidé de le réalisé de la manière suivante :
-La page home permet :
-    -visualiser toute les conf
-    -se connecter/ senregistrer / se deconnecter
-    -naviguer dans le site celon sont role 
+
+Le site à été réalisé en php procédural.
+
+Le site comporte 3 grades le grade 0 qui nous place en tant que user lambda, le grade 1 qui peut etre assigné en tant que admin ou modérateur puis le grade 2 qui est le super admin.
+
+Le user lambda peut simplement naviger sur le site voir les conf voter pour les conf
+l'admin/moderateur peut remove des users (non admin) cree des conf voté 
